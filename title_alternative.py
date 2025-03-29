@@ -5,7 +5,13 @@ sample_string = " hi IM unDER tHe WaTER"
 
 # Create a function to replicate title()
 words_split = sample_string.split()
-new_words = ""
+new_words = []
+
+for word in words_split:
+    if len(words_split) > 0:
+        changed_words = word[0].upper() + word [1:].lower() 
+        new_words.append(changed_words)
 
 
 # Implement
+print(new_words)
