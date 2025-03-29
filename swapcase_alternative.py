@@ -8,5 +8,8 @@ new_string = ""
 for char in sample_string:
     if char.islower():
         new_string += char.upper()
+    else:
+        new_string += char.lower()
 
 # Implement
+print(new_string)
