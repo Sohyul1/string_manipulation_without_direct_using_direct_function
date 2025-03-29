@@ -8,5 +8,8 @@ uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowercase = "abcdefghijklmnopqrstuvwxyz"
 
 # Create a function to replicate lower()
+for i in smpl_string:
+    if i in uppercase:
+        index = uppercase.index(i)
 
 # Implement
