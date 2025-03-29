@@ -5,6 +5,8 @@ sample_string = "HeLlO, i'M uNdEr ThE wAtEr"
 new_string = ""
 
 # Create a function to replicate swapcase()
-
+for char in sample_string:
+    if char.islower():
+        new_string += char.upper()
 
 # Implement
