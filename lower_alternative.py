@@ -11,9 +11,13 @@ lowercase = "abcdefghijklmnopqrstuvwxyz"
 new_string = ""
 
 # Create a function to replicate lower()
-for i in smpl_string:
-    if i in uppercase:
-        index = uppercase.index(i)
+for char in smpl_string:
+    if char in uppercase:
+        index = uppercase.index(char)
         new_string += lowercase[index]
 
+    else:
+        new_string += char
+
 # Implement
+print(new_string)
