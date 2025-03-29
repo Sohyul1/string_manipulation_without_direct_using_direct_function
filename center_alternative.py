@@ -3,10 +3,15 @@
 # Sample string
 sample_string = "hello"
 total_characters = 15
+
 # Spaces to add 
 spaces =  total_characters - len(sample_string)
 
 # Create a function to replicate center()
-
+if spaces > 0:
+    new_string = " " * abs(spaces) + sample_string + " " * abs(spaces) 
+else:
+    new_string = sample_string
 
 # Implement
+print(new_string)
