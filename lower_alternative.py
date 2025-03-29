@@ -7,9 +7,13 @@ smpl_string = "Hi HelLo hoW ArE YOU"
 uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowercase = "abcdefghijklmnopqrstuvwxyz"
 
+# New string
+new_string = ""
+
 # Create a function to replicate lower()
 for i in smpl_string:
     if i in uppercase:
         index = uppercase.index(i)
+        new_string += lowercase[index]
 
 # Implement
