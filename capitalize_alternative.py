@@ -6,5 +6,8 @@ sample_string = "hOW many WORDS are HERE?"
 # Create a function to replicate capitalize()
 if len(sample_string) > 0:
     new_string = sample_string[0].upper() + sample_string[1:].lower()
+else:
+    new_string = sample_string
 
 # Implement
+print(new_string)
