@@ -9,5 +9,8 @@ if smpl_string.startswith(prefix):
     index = smpl_string.index(prefix) + len(prefix)
     new_string = smpl_string[index:]
 
+else:
+    new_string = smpl_string
+
 # Implement
 print(new_string)
