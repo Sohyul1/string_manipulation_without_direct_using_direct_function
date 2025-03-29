@@ -12,6 +12,8 @@ for word in words_split:
         changed_words = word[0].upper() + word [1:].lower() 
         new_words.append(changed_words)
 
+# New string
+new_string = " ".join(new_words)
 
 # Implement
-print(new_words)
+print(new_string)
