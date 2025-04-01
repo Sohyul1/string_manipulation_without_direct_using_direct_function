@@ -8,6 +8,10 @@ total_characters = 50
 spaces = total_characters - len(sample_string)
 
 # Create a function the replicates rjust()
-
+if spaces > 0:
+    new_string = " " * spaces + sample_string
+else:
+    new_string = sample_string
 
 # Implement
+print(new_string)
