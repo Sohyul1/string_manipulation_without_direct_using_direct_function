@@ -8,6 +8,9 @@ substring = "hello"
 count = 0
 
 # Create a function that repliicates count()
-
+for i in range(len(sample_string) - len(substring) + 1):
+    if sample_string[i:i + len(substring)] == substring:
+        count += 1
 
 # Implement
+print(count)
