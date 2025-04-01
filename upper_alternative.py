@@ -10,6 +10,13 @@ lowercase = "abcdefghijklmnopqrstuvwxyz"
 # New string
 new_string = ""
 
-
 # Create a function that replicates .upper()
+for char in smpl_string:
+    if char in lowercase:
+        index = lowercase.index(char)
+        new_string += uppercase[index]
+    else:
+        new_string += char
+
 # Implement
+print(new_string)
