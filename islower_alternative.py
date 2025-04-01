@@ -5,7 +5,7 @@ sample_string1 = "HELLO"
 sample_string2 = "hello hi"
 
 # Create a function that replicates islower()
-def uppercase_checker(s):
+def lowercase_checker(s):
     for char in s:
         if char.isalpha() and char != char.lower(): 
         # Implement
@@ -13,5 +13,5 @@ def uppercase_checker(s):
             return
     print("Yes")
 
-uppercase_checker(sample_string1)
-uppercase_checker(sample_string2)
+lowercase_checker(sample_string1)
+lowercase_checker(sample_string2)
